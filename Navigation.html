@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Menu</title>
+    <style>
+        .first ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .first ul li a {
+            text-decoration: none;
+            width: 70px;
+            padding: 8px 16px;
+            background-color: rgb(184, 166, 3);
+            display: block;
+        }
+
+        .first ul li a:hover {
+            background-color: orangered;
+            color: white;
+        }
+
+        .first ul li a.active {
+            background-color: rgb(39, 119, 165);
+            color: white;
+        }
+
+        .second ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .second ul li a {
+            text-decoration: none;
+            width: 60px;
+            padding: 10px 16px;
+            background-color: rgb(194, 105, 3);
+            display: inline;
+        }
+
+        .second ul li a:hover {
+            background-color: rgb(56, 27, 136);
+            color: white;
+        }
+
+        .second ul li a.active {
+            background-color: rgb(65, 158, 235);
+            color: white;
+        }
+
+        .second ul li {
+            background-color: aqua;
+            color: rgb(150, 123, 6);
+            display: inline;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Verticla Menu</h2>
+    <div class="first">
+        <ul>
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Activites</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </div>
+    <hr>
+    <h2>Horizontal Menu</h2>
+    <div class="second">
+        <ul>
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Events</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
