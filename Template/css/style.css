@@ -50,6 +50,7 @@ ul li a {
 }
 ul li a:hover {
     background-color: brown;
+    padding: 10px;
 }
 .leftbar {
     width: 20%;

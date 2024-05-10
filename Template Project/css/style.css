@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: grey;
+    
+}
+.wrapper{
+    width: 1050px;
+    height: 978px;
+    border: 1px solid gold;
+    margin: 0 auto;
+}
+.banner{
+    display: flex;
+    background-color: rgb(143, 52, 52);
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.logo{
+    background-image: url(../images/logocar2.png);
+    width: 150px;
+    height: 90px;
+}
+.search{
+    width: 180px;
+}
+.button{
+    float: right;
+    margin-right: 7px;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+}
+.navbar div{
+    margin: 10px;
+    padding: 10px;
+}
+.navbar div a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background-color: rgb(10, 113, 231);
+    padding: 15px;
+}
+.leftbar{
+    width: 20%;
+    float: left;
+    border-right: 1px solid aqua;
+    height: 611px;
+    padding: 40px;
+    line-height: 50px;
+    background-color: rgb(97, 97, 3);
+}
+.leftbar a{
+    text-decoration: none;
+    color:white;
+}
+.content{
+    float: left;
+    width: 68%;
+    padding: 15px;
+}
+.footer{
+    clear: both;
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
