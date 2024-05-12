@@ -6,12 +6,13 @@
 }
 
 .container {
-    height: 100vh;
+    height: 930px;
     width: 100%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%),url(../images/toyta1.jpg);
+    background: linear-gradient(to top, rgba(44, 44, 44, 0.856)50%, rgba(44, 44, 44, 0.856)50%),url(../images/toyta1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 25px;
 }
 .navigation{
     height: 8vh;
@@ -72,6 +73,7 @@ section{
     height: 60vh;
     display: flex;
     margin: 100px 0 0 50px;
+    padding: 45px;
     /* align-items: center;
     justify-content: space-around; */
 }
@@ -89,7 +91,7 @@ section .text h1{
 section .text p{
     color: #fff;
     margin-top: 20px;
-    line-height: 24px;
+    line-height: 25px;
 }
 section .text button{
     padding: 7px 45px;
@@ -125,3 +127,13 @@ section .form input{
 section .form input::placeholder{
     color: #fff;
 }
+.footer{
+    background-color: rgb(61, 150, 165);
+    color: white;
+    text-align: center;
+    padding: 10px;
+   
+}
+
+
+
