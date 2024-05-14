@@ -15,7 +15,7 @@
     padding: 25px;
 }
 .navigation{
-    height: 8vh;
+    height: 50px;
     display: flex;
     align-items: center;
     overflow-y: hidden;
@@ -25,7 +25,7 @@
     width: 15%;
 }
 .navigation .logo a{
-    font-size: 24px;
+    font-size: 25px;
     text-decoration: none;
     font-weight: 800;
     margin: 0 0 0 30px;
@@ -42,16 +42,19 @@ nav ul{
 nav ul li{
     list-style-type: none;
     margin: 0 30px;
+    overflow: hidden;
 }
 nav ul li a{
     font-size: large;
     font-weight: 800;
     color: #fff;
     text-decoration: none;
+    
 }
 nav ul li a:hover {
     color: orangered;
     background-color: white;
+    padding: 15px;
    
 }
 .srch{
